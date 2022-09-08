@@ -187,12 +187,23 @@ main {
     color: #e5e7eb;
     font-weight: bold; 
     font-size: 18px;
-    padding: 10px; 
+    padding: 8px; 
     border-radius: 10px;
-    width: 120px;
+    width: 150px;
 }  
 .call-to-action div button:hover {
     border: 2px solid rgb(203, 202, 202); 
     cursor: pointer;
     color: #fdfdfd;
+} 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100px;
+    background-color: #1f2937;
+} 
+footer p {
+    color: #e5e7eb; 
+    font-weight: lighter;
 }
