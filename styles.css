@@ -17,7 +17,8 @@ header {
     background-color: #1f2937; 
 } 
 header h1 {
-    font-size: 24px;
+    font-size: 24px; 
+    color: #e5e7eb;
 }
 ul, a {
     list-style-type: none;
@@ -69,5 +70,6 @@ main {
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    width: 400px;
+    width: 400px; 
+    color: #e5e7eb;
 }
