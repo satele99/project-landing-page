@@ -167,6 +167,32 @@ main {
     align-items: center;
 } 
 .right {
-    display: flex;
-    flex-direction: column;
+  padding-right: 90px; 
+  padding-left: 0;
+}
+.right h3 {
+    font-size: 25px;
+    color: #e5e7eb;
+}
+.right p {
+    font-weight: lighter;
+    color: #e5e7eb;
+}
+.call-to-action div {
+    /* padding-right: 30px; */
+}
+.call-to-action div button {
+    background-color: #3882f6; 
+    border: 2px solid white;
+    color: #e5e7eb;
+    font-weight: bold; 
+    font-size: 18px;
+    padding: 10px; 
+    border-radius: 10px;
+    width: 120px;
+}  
+.call-to-action div button:hover {
+    border: 2px solid rgb(203, 202, 202); 
+    cursor: pointer;
+    color: #fdfdfd;
 }
