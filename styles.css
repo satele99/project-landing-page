@@ -26,7 +26,7 @@ ul, a {
     display: flex;
     gap: 16px; 
     color: #e5e7eb;
-    font-size: 13px;
+    font-size: 18px;
 }  
 main {
     display: flex;
@@ -44,14 +44,20 @@ main {
     width: 300px;
 }
 .sign-up button {
-    width: 90px; 
-    padding: 5px; 
-    border-radius: 5px; 
+    width: 100px; 
+    padding: 8px; 
+    font-size: 15px;
+    border-radius: 8px; 
     border: none; 
     background-color: #3882f6; 
     color: #e5e7eb; 
     margin-top: 8px;
+    font-weight: bold;
 } 
+.sign-up button:hover {
+    background-color: #2e69c9;
+    cursor: pointer;
+}
 .sign-up h2 {
     color: #e5e7eb; 
     font-size: 30px;
@@ -59,9 +65,10 @@ main {
 } 
 .sign-up p {
     color: #e5e7eb; 
-    font-size: 13px; 
-    width: 315px; 
-    margin-top: 5px;
+    font-size: 18px; 
+    width: 430px; 
+    margin-top: 5px; 
+    font-weight: lighter;
 }
 .image-placeholder {
     height: 180px; 
